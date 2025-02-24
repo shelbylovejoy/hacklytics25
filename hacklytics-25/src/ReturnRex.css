@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.container-rex {
+    margin-top: 100px;
+    margin-left: 0px;
+    background-color: #b6c59d9e;
+    width: 1000px;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 30px #20231b6d;
+}
+
+.dino-rex {
+    width: 22.5%;
+    height: auto;
+    display: block;
+    opacity: 1;
+    filter: drop-shadow(5px 5px 5px #222);
+    position: fixed;
+    bottom: 1%;
+    left: .6%;
+    transform: rotate(-2.5deg);
+}
+
+.header {
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 0px;
+    font-family: "Bungee", serif;
+    font-size: 60px;
+    margin: 0px;
+}
+
+.back-button {
+    width: 15%;
+    height: 40px;
+    border-radius: 7px;
+    border-style: none;
+    box-shadow: 0px 0px 10px 2px #444a3a6d;
+    background-color: rgb(200, 211, 183);
+    padding-left: 3px;
+
+    font-family: "New Amsterdam", serif;
+    font-size: 20px;
+    color: #222222b0;
+
+    outline: none;
+
+    position: absolute;
+    top: 1%;
+    left: 0.7%;
+
+    cursor: pointer;
+}
+
+.back-button:hover {
+    filter: drop-shadow(0px 2px 4px #83987d)
+}
+
+.graphBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.graph {
+    width: 60%;
+    box-shadow: 0px 0px 35px 20px #444a3a6d;
+    margin:5px;
+}
+
+.big-idea {
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    font-family: "New Amsterdam", serif;
+    font-size: 30px;
+}
+
+.analysis-box {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    gap: 110px;
+    margin-top: 0px;
+    width: 1000px;
+    line-height: 22px;
+    
+    font-family: "Special Elite", serif;
+    font-size: 20px;
+}
+
+.analysis-box .middle {
+    width: 300px;
+}

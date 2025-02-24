@@ -1,0 +1,7 @@
+body {   /* applies this style to the whole thing */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100px;
+  background-color: #72895f;
+}

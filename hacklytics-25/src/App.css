@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.container {
+  margin-top: 100px;
+  background-color: #b6c59d9e;
+  width: 1000px;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 30px #20231b6d;
+}
+
+.header {
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 0px;
+  font-family: "Bungee", serif;
+  font-size: 60px;
+  margin: 0px;
+}
+
+.subheader {
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  margin: 0px;
+  font-family: "New Amsterdam", serif;
+  font-size: 24px;
+}
+
+.input-container {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.input-box {
+  width: 60%;
+  height: 35px;
+  border-radius: 7px;
+  border-style: none;
+  box-shadow: 0px 0px 35px 20px #444a3a6d;
+  background-color: rgb(200, 211, 183);
+  padding-left: 3px;
+
+  font-family: "New Amsterdam", serif;
+  font-size: 20px;
+  color: #222222b0;
+
+  outline: none;
+} 
+
+.dino-habitat {
+  z-index: 0;
+  height: 375px;
+  width: 1000px;
+  position: relative;
+  top: -75px;
+  border-radius: 10px;
+}
+
+.dino-habitat img {
+  width: 100%;
+  border-radius: 10px; /* Match the container's border-radius */
+  opacity: 0.4;
+}
+
+.rex-style {
+  width: 400px;
+  height: auto;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  top: 47%;
+  left: 0%;
+  border: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.rex-style img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 1;
+  filter: drop-shadow(5px 5px 5px #222)
+}
+
+.rex-style img:hover {
+  filter: drop-shadow(2px 4px 4px #222)
+}
+
+.ptero-style {
+  width: 220px;
+  height: auto;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  top: 22%;
+  left: 50%;
+  border: none;
+  overflow: hidden;
+  transform: rotate(25deg);
+  cursor: pointer;
+}
+
+.ptero-style img:hover {
+  filter: drop-shadow(2px 4px 4px #222)
+}
+
+.ptero-style img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 1;
+  filter: drop-shadow(5px 5px 5px #222)
+}
+
+.stego-style {
+  width: 340px;
+  height: auto;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  top: 78%;
+  left: 32%;
+  border: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.stego-style img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 1;
+  filter: drop-shadow(5px 5px 5px #222)
+}
+
+.stego-style img:hover {
+  filter: drop-shadow(2px 4px 4px #222)
+}
+
+.raptor-style {
+  width: 310px;
+  height: auto;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  top: 65%;
+  left: 68%;
+  border: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.raptor-style img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 1;
+  filter: drop-shadow(5px 5px 5px #222)
+}
+
+.raptor-style img:hover {
+  filter: drop-shadow(2px 4px 4px #222)
+}
